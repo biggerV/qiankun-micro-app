@@ -7,12 +7,7 @@ import '@/assets/common.less'
 
 Vue.config.productionTip = false;
 
-// new Vue({
-//   router,
-//   store,
-//   render: h => h(App)
-// }).$mount("#app");
-
+// 解决静态资源会 404
 __webpack_public_path__ = window.__INJECTED_PUBLIC_PATH_BY_QIANKUN__;
 
 let router = null;
